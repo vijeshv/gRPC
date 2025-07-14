@@ -35,30 +35,23 @@ Implementation is in progress.
 This Advanced Action helps you to register at gateway as partner, listen for  outbound gRPCS from source system, receive & save in local HDD
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Host                     | SAP Server name or IP address to connect |
-| SYSNR                    | SYSNR |
-| Client                   | Client |
-| LANG                     | LANG |
-| Username                 | Username |
-| Password                 | Password |
-| GatewayHost              | Sap Gateway to connect by vendour system |
-| GatewayService           | Service or port to listen |
-| ProgramID                | ProgramID |
-| Connectioncount          | Number of parallel connections |
-| OuboundFileRepository    | Folder in LG box to store the outbound file received |
+| Connection               | gRPC Channel Name |
+| Host                     | gRPC Server name or IP address to connect |
+| SSL                      | SSL coonection or not |
+
 
 ## gRPC InvokeUnary - Parameters
 This Advanced Action helps you define tRFC connection to SAP gateway
 
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Destination              | A name of the SAP connection. this name will be using in rest of teh actions            |
-| Host                     | SAP Server name or IP address to connect |
-| SYSNR                    | SYSNR |
-| Client                   | Client |
-| LANG                     | LANG |
-| Username                 | Username |
-| Password                 | Password |
+| Connection               | gRPC Channel Name |
+| Protofile                     | SAP Server name or IP address to connect |
+| Servicename                    | SYSNR |
+| Method Name                  | Client |
+| Data                     | LANG |
+| Timeout                 | Username |
+
 
 ## gRPC ClientStreaming - Parameters
 This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
