@@ -37,6 +37,7 @@ This Advanced Action helps you to register at gateway as partner, listen for  ou
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
 | Host                     | gRPC Server name or IP address to connect |
+| Port                     | port used for communication|
 | SSL                      | SSL coonection or not |
 
 
@@ -46,11 +47,11 @@ This Advanced Action helps you define tRFC connection to SAP gateway
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
-| Protofile                     | SAP Server name or IP address to connect |
-| Servicename                    | SYSNR |
-| Method Name                  | Client |
-| Data                     | LANG |
-| Timeout                 | Username |
+| Protofile                | Proto file Name with physical path |
+| Servicename              | service name in teh format <package.servicename> |
+| Method Name              | Name of teh unary method to invoke |
+| Data                     | request data in jsonformat |
+| Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 
 
 ## gRPC ClientStreaming - Parameters
