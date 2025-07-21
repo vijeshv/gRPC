@@ -58,33 +58,33 @@ This Advanced Action helps you define tRFC connection to SAP gateway
 This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Destination              | A name of the SAP connection. this name will be using in rest of the actions            |
-| template_filepath        | Path of inboud payload template |
-| template_filename        | Inbound-Template xml file name |
-| parseXML                 | Whether to parse xml for varaible or not|
-| responding to Outbound   | whether to scan outbound file received for variable |
-| Outbound file directory  | Oubound file directory  at listener side |
+| Connection               | gRPC Channel Name |
+| Protofile                | Proto file Name with physical path |
+| Servicename              | service name in teh format <package.servicename> |
+| Method Name              | Name of teh unary method to invoke |
+| Datafilepath             | streaming request data (json) file in .txt format |
+| Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 ## gRPC SynchServerStreaming - Parameters
 This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Destination              | A name of the SAP connection. this name will be using in rest of the actions            |
-| template_filepath        | Path of inboud payload template |
-| template_filename        | Inbound-Template xml file name |
-| parseXML                 | Whether to parse xml for varaible or not|
-| responding to Outbound   | whether to scan outbound file received for variable |
-| Outbound file directory  | Oubound file directory  at listener side |
+| Connection               | gRPC Channel Name |
+| Protofile                | Proto file Name with physical path |
+| Servicename              | service name in teh format <package.servicename> |
+| Method Name              | Name of teh unary method to invoke |
+| Data                     | request data in jsonformat |
+| Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 ## gRPC AssynchServerStreaming - Parameters
 This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Destination              | A name of the SAP connection. this name will be using in rest of the actions            |
-| template_filepath        | Path of inboud payload template |
-| template_filename        | Inbound-Template xml file name |
-| parseXML                 | Whether to parse xml for varaible or not|
-| responding to Outbound   | whether to scan outbound file received for variable |
-| Outbound file directory  | Oubound file directory  at listener side |
-## gRPC BidirectionalStreaming - Parameters
+| Connection               | gRPC Channel Name |
+| Protofile                | Proto file Name with physical path |
+| Servicename              | service name in teh format <package.servicename> |
+| Method Name              | Name of teh unary method to invoke |
+| Data                     | request data in jsonformat |
+| Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
+## gRPC BidirectionalStreaming - Parameters(TBD)
 This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
 | Name                     | Description       |
 | ---------------          | ----------------- |
