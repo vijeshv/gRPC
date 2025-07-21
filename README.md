@@ -96,6 +96,5 @@ This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC paylo
 | Outbound file directory  | Oubound file directory  at listener side |
 
 Status Codes:
-* NL-gRPCs_ERROR :  Any gRPC Listener Error.
-* NL-gRPCINBOUND_ERROR :  Any INBOUND gRPC Error. 
+* NL-gRPC_ERROR :  Any gRPC error 
 
