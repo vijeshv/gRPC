@@ -32,7 +32,7 @@ Implementation is in progress.
 4. restart neoload
 ## Advanced Actions definitions
 ## gRPC Connect - Parameters
-This Advanced Action helps you to register at gateway as partner, listen for  outbound gRPCS from source system, receive & save in local HDD
+This Advanced Action helps you to create a chhanel with gRPC server.
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
@@ -42,7 +42,7 @@ This Advanced Action helps you to register at gateway as partner, listen for  ou
 
 
 ## gRPC InvokeUnary - Parameters
-This Advanced Action helps you define tRFC connection to SAP gateway
+This Advanced Action helps you to invoke Unary grpc calls.
 
 | Name                     | Description       |
 | ---------------          | ----------------- |
@@ -55,7 +55,7 @@ This Advanced Action helps you define tRFC connection to SAP gateway
 
 
 ## gRPC ClientStreaming - Parameters
-This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
+This Advanced Action helps you to client streaming grpc calls.streaming clint side data you define inside a text file in  newline sepeated json format.
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
@@ -65,7 +65,7 @@ This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC paylo
 | Datafilepath             | streaming request data (json) file in .txt format |
 | Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 ## gRPC SynchServerStreaming - Parameters
-This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
+This Advanced Action helps you to invoke thes ynchronized server streaming grpc calls.
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
@@ -75,7 +75,7 @@ This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC paylo
 | Data                     | request data in jsonformat |
 | Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 ## gRPC AssynchServerStreaming - Parameters
-This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
+This Advanced Action helps you to invoke the Asynchronized server streaming grpc calls.
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Connection               | gRPC Channel Name |
@@ -85,7 +85,7 @@ This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC paylo
 | Data                     | request data in jsonformat |
 | Timeout                  | gRPC call timeout. value '0' indicate no timeoutclient will waite as long as server alive and responding |
 ## gRPC BidirectionalStreaming - Parameters(TBD)
-This Advanced Action helps you simulate Inbound gRPC based on Inbound-gRPC payload template & outbound gRPCS received -Inputs & Oupputs parameters
+This Advanced Action helps you to invoke the bidirectional server streaming grpc calls.
 | Name                     | Description       |
 | ---------------          | ----------------- |
 | Destination              | A name of the SAP connection. this name will be using in rest of the actions            |
