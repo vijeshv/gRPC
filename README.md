@@ -88,12 +88,7 @@ This Advanced Action helps you to invoke the Asynchronized server streaming grpc
 This Advanced Action helps you to invoke the bidirectional server streaming grpc calls.
 | Name                     | Description       |
 | ---------------          | ----------------- |
-| Destination              | A name of the SAP connection. this name will be using in rest of the actions            |
-| template_filepath        | Path of inboud payload template |
-| template_filename        | Inbound-Template xml file name |
-| parseXML                 | Whether to parse xml for varaible or not|
-| responding to Outbound   | whether to scan outbound file received for variable |
-| Outbound file directory  | Oubound file directory  at listener side |
+
 
 Status Codes:
 * NL-gRPC_ERROR :  Any gRPC error 
