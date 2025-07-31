@@ -30,8 +30,8 @@ Implementation is in progress.
    keep the protoc-30.0-win64 file in custom-resources folder of your project
 
 4. restart neoload
-## Neolaod gRPC Project Template with advance action
-
+## Neolaod gRPC Project Template
+   Download the  NL project with advanceactions Jars[latest release](https://github.com/vijeshv/gRPC/blob/main/NLproject/gRPCNLproject.zip)
 ## Advanced Actions definitions
 ## gRPC Connect - Parameters
 This Advanced Action helps you to create a chhanel with gRPC server.
